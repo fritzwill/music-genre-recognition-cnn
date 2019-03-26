@@ -1,0 +1,15 @@
+fma_metadata/*
+fma_metadata.zip
+fma_small/*
+fma_small.zip
+*__pycache__*
+*.py[cod]
+*wav_files*
+*spectrograms*
+website/GenreIDApp/GenreIDApp/static/processing/spectros*
+website/GenreIDApp/GenreIDApp/venv/*
+willSpect/*
+tommySpect/*
+TrainingSpectrograms/*
+data/*
+

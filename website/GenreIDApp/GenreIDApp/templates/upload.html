@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <main>
+    <div class="position-relative">
+      <!-- shape Hero -->
+      <section class="section section-lg section-shaped pb-250">
+        <div class="shape shape-style-1 shape-default">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="container py-lg-md d-flex">
+          <div class="col px-0">
+            <div class="row">
+              <div class="col-lg-7">
+                <h1 class="display-3  text-white">A Genre Identification System
+                  <span>featuring Artificial Intelligence</span>
+                </h1>
+                <p class="lead  text-white">The identification system comes with a neural network trained on 8,000 songs across eight genres.</p>
+                
+              </div>
+            </div>
+            <!-- <section class="section section-lg pt-0"> -->
+                <div class="container mt-5">
+                  <div class="card bg-gradient-success shadow-lg border-0">
+                    <div class="p-5">
+                      <div class="row align-items-center">
+                        <div class="col-lg-8">
+                            <form method=post enctype=multipart/form-data>
+                              <div class="form-group">
+                                <div class="input-group input-file" name=file>
+                                  <span class="input-group-btn">
+                                    <button class="btn btn-default btn-lg btn-choose" type="button">Choose</button>
+                                  </span>
+                                    <input type="text" class="btn" placeholder='Choose a file...' />
+                                  <span class="input-group-btn">
+                                    <button class="btn btn-warning btn-lg btn-reset" type="button">Reset</button>
+                                  </span>
+                                </div>
+                              </div>
+                                <!-- <input type=submit value=Upload> -->
+                              </div>
+                              <!-- <div class="col-lg-8">
+                                <h3 class="text-white">We made website building easier for you.</h3>
+                                <p class="lead text-white mt-3">I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture.</p>
+                              </div> -->
+                              <div class="col-lg-3 ml-lg-auto">
+                                <input type=submit class="btn btn-lg btn-white" value=Upload>
+                                <!-- <a href="https://www.creative-tim.com/product/argon-design-system" class="btn btn-lg btn-block btn-white">Download HTML</a> -->
+                              </div>
+                            </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <!-- </section> -->
+          </div>
+        </div>
+        <!-- SVG separator -->
+        <div class="separator separator-bottom separator-skew">
+          <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <polygon class="fill-secondary" points="2560 0 2560 100 0 100"></polygon>
+          </svg>
+        </div>
+      </section>
+      <!-- 1st Hero Variation -->
+    </div>
+  </main>
+{% endblock %}

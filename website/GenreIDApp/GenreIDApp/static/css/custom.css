@@ -1,0 +1,30 @@
+.navbar-brand img { 
+    height: 50px !important;
+}
+
+.navbar-collapse .collapse-brand img {
+    height: 50px !important;
+}
+
+
+
+.profile-page .card-profile .card-profile-image img
+{
+    max-width: 400px;
+    min-height: 400px;
+    border-radius: 1rem!important;
+    object-fit: cover;
+}
+
+#result-title {
+    margin-top: 12rem!important;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#genre-hero {
+    padding-top: 5rem!important;
+    text-align: center;
+}
